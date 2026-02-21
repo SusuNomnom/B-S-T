@@ -1,9 +1,9 @@
 <?php
 // 1. ตั้งค่าการเชื่อมต่อฐานข้อมูล MariaDB (นำข้อมูลมาจาก Dokploy)
-$servername = "s6860506035db-suha-mqykhr"; // หรือ IP/Host ที่ Dokploy กำหนดให้
-$username = "6860506035"; // เช่น "root" หรือชื่อที่ตั้งไว้
+$servername = "mariadb"; // หรือ IP/Host ที่ Dokploy กำหนดให้
+$username = "root"; // เช่น "root" หรือชื่อที่ตั้งไว้
 $password = "Suha_2006"; // รหัสผ่านฐานข้อมูล
-$dbname = "suha"; // เช่น "trees_db"
+$dbname = "trees_db"; // เช่น "trees_db"
 
 $db_status_message = "";
 
